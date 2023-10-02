@@ -2,7 +2,7 @@ version: '3.8'
 services:
   db:
     container_name: course-erp-db
-    image: postgres:14.5
+    image: 'bitnami/postgresql:15'
     restart: always
     environment:
       - POSTGRES_USER=postgres
