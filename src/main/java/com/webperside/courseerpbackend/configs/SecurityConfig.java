@@ -71,8 +71,8 @@ public class SecurityConfig {
 
 
                     // Languages endpoints
-//                    request.requestMatchers("/v1/languages").authenticated();
-//                    request.requestMatchers("/v1/languages/{id}").authenticated();
+                    request.requestMatchers("/v1/languages").authenticated();
+                    request.requestMatchers("/v1/languages/{id}").authenticated();
 
                     // Country endpoints
                     request.requestMatchers("/v1/countries").authenticated();
